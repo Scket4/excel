@@ -47,6 +47,7 @@
     "-": "0.0.1",
     "@babel/polyfill": "^7.10.4",
     "cross-env": "^7.0.2",
-    "node-sass": "^4.14.1"
+    "node-sass": "^4.14.1",
+    "normalize.css": "^8.0.1"
   }
 }
