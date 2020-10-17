@@ -51,3 +51,16 @@ export function debounce(fn, ms) {
     timeout = setTimeout(later, ms)
   }
 }
+
+export function clone(obj) {
+  return JSON.parse(JSON.stringify(obj))
+}
+
+
+export function getTime() {
+  const date = new Date()
+  const time = date.getDay()
+  + '.' + date.getMonth()
+  + '.' + date.getFullYear()
+  return time
+}
