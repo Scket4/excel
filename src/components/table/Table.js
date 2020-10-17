@@ -58,7 +58,6 @@ export class Table extends ExcelComponent {
     this.selection.select($cell)
     this.$emit('table:select', $cell)
     const styles = $cell.getStyle(Object.keys(defaultStyles))
-    console.log(styles);
     this.$dispatch(actions.changeStyles(styles))
   }
 
